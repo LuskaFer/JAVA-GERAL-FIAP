@@ -1,0 +1,33 @@
+Gestor
+-nome: String
+-matricula: int
+-genero: char
+-telefone: String
+-depto: String
+
+Funcionario
+-nome: String
+-matricula: int
+-genero: char
+-telefone: String
+-depto: String
+-pontuacaoAcumulada: int
+-pontuacaoPendente: int
+
+Missao
+-nome: String
+-descricao: String
+-gestor: Gestor
+-funcionario: Funcionario
+-status: String
+-categoria: String
+-pontuacao: double
+
+Documento
+-documento: String
+-gestor: Gestor
+-funcionario: Funcionario
+------
+adicionarDocumento(Gestor gestor, Funcionario funcionario, String documento): void
+editarDocumento(Gestor gestor, Funcionario funcionario, String documento): void
+excluirDocumento(Gestor gestor, Funcionario funcionario, String documento): void
